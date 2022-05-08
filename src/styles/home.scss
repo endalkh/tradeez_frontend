@@ -1,0 +1,47 @@
+.home{
+    & .categorylist{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px 2%;
+        & li{
+            list-style: none;
+            width: 200px;
+            margin: 10px 20px;
+            padding: 10px;
+            background-color: #F7F7F7;
+            
+        }
+        & img{
+            width: 150px;
+            height: 150px;
+        }
+        &_button{
+           display: flex;
+           flex-flow: column;
+        }
+    }
+    & .quotes_section{
+        background-image: url('../assests/images/img3.png');
+        background-position: top center;;
+        background-repeat: no-repeat;
+    }
+    & .supplier_network{
+        padding: 48px 0px 20px 0px;
+        background-color: #fff;
+        text-align: center;
+        & h3{
+            color: #00202A;
+            font-size: 32px;
+            font-weight: bold;
+            padding-bottom: 26px;
+        }
+        & button{
+            background-color: #F74952;
+            color: #fff;
+            border: none;
+            box-shadow: none;
+            padding: 8px 25px;
+            border-radius: 2px;
+        }
+    }
+}
