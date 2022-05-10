@@ -99,82 +99,81 @@ const Home = () => {
         </div>
         <button>view all categories</button>
       </div>
-      <div>
+      <div className="supplyfirst">
         <h3>Why SupplyFirst</h3>
         <h5>All of your raw material requirements can be met in one place.</h5>
-        <ul>
-          <li>
+        <div className="supplyfirst_list">
+          <div className="supplyfirst_listItem">
+            <div className="supplyfirst_icon"></div>
             <h5>Easy Sampling</h5>
             <p>
               By going online, you can utilize digital marketing strategies to
               increase your reach.
             </p>
-          </li>
-          <li>
+          </div>
+          <div className="supplyfirst_listItem">
+            <div className="supplyfirst_icon"></div>
             <h5>large network of factories </h5>
             <p>
               By going online, you can utilize digital marketing strategies to
               increase your reach.
             </p>
-          </li>
-          <li>
+          </div>
+          <div className="supplyfirst_listItem">
+            <div className="supplyfirst_icon"></div>
             <h5>Reliablity</h5>
             <p>
               By going online, you can utilize digital marketing strategies to
               increase your reach.
             </p>
-          </li>
-          <li>
+          </div>
+          <div className="supplyfirst_listItem">
+            <div className="supplyfirst_icon"></div>
             <h5>Quality Assuarance</h5>
             <p>
               By going online, you can utilize digital marketing strategies to
               increase your reach.
             </p>
-          </li>
-          <li>
-            <h5>Easy Sampling</h5>
-            <p>
-              By going online, you can utilize digital marketing strategies to
-              increase your reach.
-            </p>
-          </li>
-          <li>
+          </div>
+          <div className="supplyfirst_listItem">
+            <div className="supplyfirst_icon"></div>
             <h5>Best Prices</h5>
             <p>
               By going online, you can utilize digital marketing strategies to
               increase your reach.
             </p>
-          </li>
-          <li>
+          </div>
+          <div className="supplyfirst_listItem">
+            <div className="supplyfirst_icon"></div>
             <h5>Real time Order Updates </h5>
             <p>
               By going online, you can utilize digital marketing strategies to
               increase your reach.
             </p>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
-      <div>
+      <div className="process">
         <h3>Get Started Quickly </h3>
         <p>Fastest turnaround time from sampling to Production </p>
-        <ul>
-          <li>
-            <div className="rounded">1</div>
+        <div className="process_lists">
+          <div className="process_list">
+            <div className="rounded_effect">1</div>
             <div className="">Create account</div>
-          </li>
-          <li>
-            <div className="rounded">2</div>
+          </div>
+          <div className="process_list">
+            <div className="rounded_effect">2</div>
             <div className="">Complete KYC </div>
-          </li>
-          <li>
-            <div className="rounded">3</div>
+          </div>
+          <div className="process_list">
+            <div className="rounded_effect">3</div>
             <div className="">Request Quote </div>
-          </li>
-          <li>
-            <div className="rounded">4</div>
+          </div>
+          <div className="process_list">
+            <div className="rounded_effect">4</div>
             <div className="">Start Production</div>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
       <div className="quotes_section">
         <div className="row">

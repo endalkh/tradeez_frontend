@@ -22,8 +22,64 @@
     }
     & .quotes_section{
         background-image: url('../assests/images/img3.png');
-        background-position: top center;;
+        background-position: top center;
         background-repeat: no-repeat;
+    }
+    & .supplyfirst{
+        background-image: url('../assests/images/img1.png');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        justify-content: center;
+        &_list{
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px 15%;
+            justify-content: center;
+        }
+        &_listItem{
+            width: 28%;
+            max-width: 220px;
+            margin: 20px;
+            padding: 10px;
+            background-color: rgba(232, 233, 235, 0.5);
+            border-radius: 5px;
+        }
+    }
+    & .process{
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+        background-image: url("../assests/images/about.png");
+        color: #fff;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 38px 0px;
+        & h3{
+            font-size: 24px;
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
+        &_lists{
+            display: flex;
+        }
+        &_list{
+            padding: 0px 30px;
+        }
+        & .rounded_effect{
+            border-radius: 55px;
+            background-color: #F2F1F1;
+            width: 100px;
+            height: 100px;
+            vertical-align: middle;
+            color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 38px;
+        }
     }
     & .supplier_network{
         padding: 48px 0px 20px 0px;
