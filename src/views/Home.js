@@ -3,101 +3,121 @@ import Footer from "../components/Footer";
 import Banner from "../components/Banner";
 import img1 from "../assests/images/metals_alloys.png";
 const Home = () => {
+  console.log(process.env.REACT_APP_API_URL);
+
   return (
     <div className="home container-fluid p-0">
       <Header />
       <Banner />
-      <div>
-        <h3>Supplying to 12+ countries</h3>
-        <p>All of your raw material requirements can be met in one place.</p>
-        <h4>
-          satisfies the needs of 100+ different product categories in multiple
-          industries
-        </h4>
-        <p>All of your raw material requirements can be met in one place.</p>
-        <div className="categorylist row row-cols-4 row-cols-md-4 g-4">
-          <div class="col">
-            <div class="card">
-              <img src={img1} class="card-img-top" alt="..." />
-              <h5>Metals & Alloys</h5>
-              <div className="card-body categorylist_button">
-                <button>25K+ orders</button>
-                <button>view</button>
-              </div>
+      <div className="d-flex flex-column">
+        <div className="d-flex flex-column text-center py-5">
+          <h3 className="font-weight-bold">Supplying to 12+ countries</h3>
+          <p>All of your raw material requirements can be met in one place.</p>
+          <div className="">
+            <div>
+              <span>1000+</span>
+              <span>Registered SMEs</span>
+            </div>
+            <div>
+              <span>500+</span>
+              <span>Cities</span>
+            </div>
+            <div>
+              <span>10000+</span>
+              <span>Transactions</span>
             </div>
           </div>
-          <div class="col">
-            <div class="card">
-              <img src={img1} class="card-img-top" alt="..." />
-              <h5>Metals & Alloys</h5>
-              <div className="card-body categorylist_button">
-                <button>25K+ orders</button>
-                <button>view</button>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src={img1} class="card-img-top" alt="..." />
-              <h5>Metals & Alloys</h5>
-              <div className="card-body categorylist_button">
-                <button>25K+ orders</button>
-                <button>view</button>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src={img1} class="card-img-top" alt="..." />
-              <h5>Metals & Alloys</h5>
-              <div className="card-body categorylist_button">
-                <button>25K+ orders</button>
-                <button>view</button>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src={img1} class="card-img-top" alt="..." />
-              <h5>Metals & Alloys</h5>
-              <div className="card-body categorylist_button">
-                <button>25K+ orders</button>
-                <button>view</button>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src={img1} class="card-img-top" alt="..." />
-              <h5>Metals & Alloys</h5>
-              <div className="card-body categorylist_button">
-                <button>25K+ orders</button>
-                <button>view</button>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src={img1} class="card-img-top" alt="..." />
-              <h5>Metals & Alloys</h5>
-              <div className="card-body categorylist_button">
-                <button>25K+ orders</button>
-                <button>view</button>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src={img1} class="card-img-top" alt="..." />
-              <h5>Metals & Alloys</h5>
-              <div className="card-body categorylist_button">
-                <button>25K+ orders</button>
-                <button>view</button>
-              </div>
-            </div>
-          </div>
+          <h4 className="font-weight-bold">
+            Satisfies the needs of 100+ different product categories in multiple
+            industries
+          </h4>
+          <p>All of your raw material requirements can be met in one place.</p>
         </div>
-        <button>view all categories</button>
+        <div>
+          <div className="categorylist row row-cols-4 row-cols-md-4 g-4">
+            <div class="col">
+              <div class="card">
+                <img src={img1} class="card-img-top" alt="..." />
+                <h5>Metals & Alloys</h5>
+                <div className="card-body categorylist_button">
+                  <button>25K+ orders</button>
+                  <button>view</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src={img1} class="card-img-top" alt="..." />
+                <h5>Metals & Alloys</h5>
+                <div className="card-body categorylist_button">
+                  <button>25K+ orders</button>
+                  <button>view</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src={img1} class="card-img-top" alt="..." />
+                <h5>Metals & Alloys</h5>
+                <div className="card-body categorylist_button">
+                  <button>25K+ orders</button>
+                  <button>view</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src={img1} class="card-img-top" alt="..." />
+                <h5>Metals & Alloys</h5>
+                <div className="card-body categorylist_button">
+                  <button>25K+ orders</button>
+                  <button>view</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src={img1} class="card-img-top" alt="..." />
+                <h5>Metals & Alloys</h5>
+                <div className="card-body categorylist_button">
+                  <button>25K+ orders</button>
+                  <button>view</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src={img1} class="card-img-top" alt="..." />
+                <h5>Metals & Alloys</h5>
+                <div className="card-body categorylist_button">
+                  <button>25K+ orders</button>
+                  <button>view</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src={img1} class="card-img-top" alt="..." />
+                <h5>Metals & Alloys</h5>
+                <div className="card-body categorylist_button">
+                  <button>25K+ orders</button>
+                  <button>view</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src={img1} class="card-img-top" alt="..." />
+                <h5>Metals & Alloys</h5>
+                <div className="card-body categorylist_button">
+                  <button>25K+ orders</button>
+                  <button>view</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button>view all categories</button>
+        </div>
       </div>
       <div className="supplyfirst">
         <h3>Why SupplyFirst</h3>
