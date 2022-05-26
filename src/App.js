@@ -4,6 +4,7 @@ import Home from "./views/Home";
 import Login from "./views/Login";
 import Signup from "./views/Signup";
 import Dashboard from "./views/Dashboard";
+import SellerKYC from "./views/SellerKYC";
 function App() {
   return (
     <div>
@@ -13,6 +14,7 @@ function App() {
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<Signup />} />
           <Route path="dashboard" element={<Dashboard />} />
+          <Route path="kyc" element={<SellerKYC />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -7,12 +7,7 @@ import Header from "../components/Header";
 
 const LoginValidation = yup.object().shape({
   email: yup.string().email().required(),
-  password: yup
-    .string()
-    .min(8)
-    .max(10)
-    .matches("^(?=.*[a-z])(?=.*[A-Z])(?=.*d)[a-zA-Zd]$")
-    .required(),
+  password: yup.string().required(),
 });
 
 const Login = () => {
@@ -28,7 +23,6 @@ const Login = () => {
           <div className="col-6">ss</div>
           <div className="col-6">
             <h3>Get’s started.</h3>
-            <p>already have an account? log in</p>
             {/* <GoogleLogin
             clientId="914297540412-g1bbqvf3ifp5g0mtl4e767kcbqvb586p.apps.googleusercontent.com"
             buttonText="Login"
@@ -40,10 +34,16 @@ const Login = () => {
               initialValues={{ email: "", password: "" }}
               validationSchema={LoginValidation}
               onSubmit={(values, { setSubmitting }) => {
-                setTimeout(() => {
-                  alert(JSON.stringify(values, null, 2));
-                  setSubmitting(false);
-                }, 1000);
+                console.log(process.env.REACT_APP_API_URL);
+
+                axios({
+                  method: "post",
+                  url: `${process.env.REACT_APP_API_URL}login`,
+                  data: {
+                    email: values.email,
+                    password: values.password,
+                  },
+                });
               }}
             >
               {({ isSubmitting }) => (
@@ -64,13 +64,21 @@ const Login = () => {
                     <ErrorMessage name="password" />
                   </div>
 
-                  <div className="form-group">
+                  <div className="form-group w-100">
                     <button
                       type="submit"
-                      className="btn btn-primary"
+                      className="btn btn-primary w-100 mt-3"
                       disabled={isSubmitting}
                     >
                       {isSubmitting ? "Please wait..." : "Submit"}
+                    </button>
+                  </div>
+                  <div className="form-group w-100">
+                    <button
+                      type="submit"
+                      className="btn btn-secondary w-100 mt-3"
+                    >
+                      Signup
                     </button>
                   </div>
                 </Form>

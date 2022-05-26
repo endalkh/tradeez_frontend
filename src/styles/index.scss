@@ -41,7 +41,9 @@ $desktop-space:       35px;
 @import 'banner';
 @import 'footer';
 @import 'login';
+@import 'sellerKYC';
 
 body{
   font-family: $primary-font;
+  background-color: #E5E5E5;
 }

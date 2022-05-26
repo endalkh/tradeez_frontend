@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e84caa0b.css",
+    "main.js": "/static/js/main.29bf1d5e.js",
+    "static/js/787.56ecbce3.chunk.js": "/static/js/787.56ecbce3.chunk.js",
+    "static/media/welder-used-grinding-stone-on-steel-in-factory-wit.jpg": "/static/media/welder-used-grinding-stone-on-steel-in-factory-wit.2dd3bd20f16032e47685.jpg",
+    "static/media/img1.png": "/static/media/img1.e6363d7174bc67fa13d4.png",
+    "static/media/img3.png": "/static/media/img3.e15e63d39407adc74c54.png",
+    "static/media/about.png": "/static/media/about.b26c71354f6bb29a2059.png",
+    "static/media/metals_alloys.png": "/static/media/metals_alloys.7b9fc518da7eec9dd159.png",
+    "static/media/Inter-Regular.ttf": "/static/media/Inter-Regular.a3e5baa244e35d0f891d.ttf",
+    "index.html": "/index.html",
+    "main.e84caa0b.css.map": "/static/css/main.e84caa0b.css.map",
+    "main.29bf1d5e.js.map": "/static/js/main.29bf1d5e.js.map",
+    "787.56ecbce3.chunk.js.map": "/static/js/787.56ecbce3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e84caa0b.css",
+    "static/js/main.29bf1d5e.js"
+  ]
+}

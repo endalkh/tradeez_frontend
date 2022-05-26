@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../assests/images/logo.png";
 
 const Header = () => {
@@ -8,12 +9,12 @@ const Header = () => {
       </div>
 
       <div className="d-flex">
-        <button type="button" className="btn btn-light">
+        <Link to="/login" className="btn btn-light">
           Login
-        </button>
-        <button type="button" className="btn btn-dark">
+        </Link>
+        <Link to="/signup" className="btn btn-dark">
           Supplier{" "}
-        </button>
+        </Link>
       </div>
     </header>
   );
