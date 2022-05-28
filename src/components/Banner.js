@@ -8,7 +8,7 @@ const Banner = () => {
         Take a look at our free tools to help you run your business more
         efficiently.
       </p>
-      <button>get best quotes</button>
+      <button className="button">Get Best Quotes</button>
     </div>
   );
 };

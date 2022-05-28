@@ -15,22 +15,22 @@ const Home = () => {
     <div className="home container-fluid p-0">
       <Header />
       <Banner />
-      <div className="d-flex flex-column">
+      <div className="d-flex flex-column supply-section">
         <div className="d-flex flex-column text-center py-5">
           <h3 className="font-weight-bold">Supplying to 12+ countries</h3>
           <p>All of your raw material requirements can be met in one place.</p>
-          <div className="">
-            <div>
-              <span>1000+</span>
-              <span>Registered SMEs</span>
+          <div className="supply-list">
+            <div className="supply-list--item">
+              <span className="counts">1000+</span>
+              <span className="desc">Registered SMEs</span>
             </div>
-            <div>
-              <span>500+</span>
-              <span>Cities</span>
+            <div className="supply-list--item">
+              <span className="counts">500+</span>
+              <span className="desc">Cities</span>
             </div>
-            <div>
-              <span>10000+</span>
-              <span>Transactions</span>
+            <div className="supply-list--item">
+              <span className="counts">10000+</span>
+              <span className="desc">Transactions</span>
             </div>
           </div>
           <h4 className="font-weight-bold">
@@ -39,15 +39,15 @@ const Home = () => {
           </h4>
           <p>All of your raw material requirements can be met in one place.</p>
         </div>
-        <div>
+        <div className="d-flex">
           <div className="categorylist row row-cols-4 row-cols-md-4 g-4">
             <div class="col">
               <div class="card">
                 <img src={img1} class="card-img-top" alt="..." />
                 <h5>Metals & Alloys</h5>
                 <div className="card-body categorylist_button">
-                  <button>25K+ orders</button>
-                  <button>view</button>
+                  <button className="butto-primaryn">25K+ orders</button>
+                  <button className="button-secondary">view</button>
                 </div>
               </div>
             </div>
@@ -56,8 +56,8 @@ const Home = () => {
                 <img src={img1} class="card-img-top" alt="..." />
                 <h5>Metals & Alloys</h5>
                 <div className="card-body categorylist_button">
-                  <button>25K+ orders</button>
-                  <button>view</button>
+                  <button className="butto-primaryn">25K+ orders</button>
+                  <button className="button-secondary">view</button>
                 </div>
               </div>
             </div>
@@ -66,8 +66,8 @@ const Home = () => {
                 <img src={img1} class="card-img-top" alt="..." />
                 <h5>Metals & Alloys</h5>
                 <div className="card-body categorylist_button">
-                  <button>25K+ orders</button>
-                  <button>view</button>
+                  <button className="butto-primaryn">25K+ orders</button>
+                  <button className="button-secondary">view</button>
                 </div>
               </div>
             </div>
@@ -76,8 +76,8 @@ const Home = () => {
                 <img src={img1} class="card-img-top" alt="..." />
                 <h5>Metals & Alloys</h5>
                 <div className="card-body categorylist_button">
-                  <button>25K+ orders</button>
-                  <button>view</button>
+                  <button className="butto-primaryn">25K+ orders</button>
+                  <button className="button-secondary">view</button>
                 </div>
               </div>
             </div>
@@ -86,8 +86,8 @@ const Home = () => {
                 <img src={img1} class="card-img-top" alt="..." />
                 <h5>Metals & Alloys</h5>
                 <div className="card-body categorylist_button">
-                  <button>25K+ orders</button>
-                  <button>view</button>
+                  <button className="butto-primaryn">25K+ orders</button>
+                  <button className="button-secondary">view</button>
                 </div>
               </div>
             </div>
@@ -96,8 +96,8 @@ const Home = () => {
                 <img src={img1} class="card-img-top" alt="..." />
                 <h5>Metals & Alloys</h5>
                 <div className="card-body categorylist_button">
-                  <button>25K+ orders</button>
-                  <button>view</button>
+                  <button className="butto-primaryn">25K+ orders</button>
+                  <button className="button-secondary">view</button>
                 </div>
               </div>
             </div>
@@ -106,8 +106,8 @@ const Home = () => {
                 <img src={img1} class="card-img-top" alt="..." />
                 <h5>Metals & Alloys</h5>
                 <div className="card-body categorylist_button">
-                  <button>25K+ orders</button>
-                  <button>view</button>
+                  <button className="butto-primaryn">25K+ orders</button>
+                  <button className="button-secondary">view</button>
                 </div>
               </div>
             </div>
@@ -116,8 +116,8 @@ const Home = () => {
                 <img src={img1} class="card-img-top" alt="..." />
                 <h5>Metals & Alloys</h5>
                 <div className="card-body categorylist_button">
-                  <button>25K+ orders</button>
-                  <button>view</button>
+                  <button className="butto-primaryn">25K+ orders</button>
+                  <button className="button-secondary">view</button>
                 </div>
               </div>
             </div>
@@ -213,15 +213,9 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="quotes_section">
-        <div className="row">
-          <div className="col-6">
-            <h3>Get Best Prices For 100+ Products in 24-48 Hours</h3>
-            <p>
-              All of your raw material requirements can be met in one place.
-            </p>
-          </div>
-          <div className="col-6">
+      <div className="container-fluid quotes_section">
+        <div className="row pt-5">
+          <div className="col-12">
             <h3>Get Best Prices For 100+ Products in 24-48 Hours</h3>
             <p>
               All of your raw material requirements can be met in one place.

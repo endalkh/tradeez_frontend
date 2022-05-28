@@ -15,15 +15,27 @@
             width: 150px;
             height: 150px;
         }
+        & .card{
+            padding: 16px;
+            & .card-body{
+                padding: 0%;
+            }
+            & img{
+                padding: 10px;
+            }
+        }
         &_button{
            display: flex;
            flex-flow: column;
+           & .butto-primaryn{padding: 5px; border: 0px; margin: 2px 0px;}
+           & .button-secondary{padding: 5px; border: 0px; background-color: #212738; color: #fff; margin: 2px 0px; text-transform: capitalize;}
         }
     }
     & .quotes_section{
         background-image: url('../assests/images/img3.png');
         background-position: top center;
         background-repeat: no-repeat;
+        padding: 30px 0px 0px;
     }
     & .supplyfirst{
         background-image: url('../assests/images/img1.png');
@@ -106,6 +118,37 @@
             box-shadow: none;
             padding: 8px 25px;
             border-radius: 2px;
+        }
+    }
+    & .supply-section{
+        background-size: contain;
+        background-image: url("../assests/images/img1.png");
+        background-position: center;    
+        padding: 30px 0px;
+        & h3{
+            font-size: 34px;
+            font-weight: bolder;
+        }
+        & h4{
+            font-size: 32px;
+            font-weight: bold;
+            padding: 10px 23%;
+        }
+        & .supply-list{
+            display: flex;
+            justify-content: space-evenly;
+            &--item{
+                display: flex;
+                flex-flow: column;
+                padding: 45px 0px;
+                & .counts{
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+                & .desc{
+                    font-size: 16px;
+                }
+            }
         }
     }
 }
