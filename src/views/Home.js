@@ -2,6 +2,12 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Banner from "../components/Banner";
 import img1 from "../assests/images/metals_alloys.png";
+import icon1 from "../assests/icons/icon-1.png";
+import icon2 from "../assests/icons/icon-2.png";
+import icon3 from "../assests/icons/icon-3.png";
+import icon4 from "../assests/icons/icon-4.png";
+import icon5 from "../assests/icons/icon-5.png";
+import icon6 from "../assests/icons/icon-6.png";
 const Home = () => {
   console.log(process.env.REACT_APP_API_URL);
 
@@ -124,7 +130,9 @@ const Home = () => {
         <h5>All of your raw material requirements can be met in one place.</h5>
         <div className="supplyfirst_list">
           <div className="supplyfirst_listItem">
-            <div className="supplyfirst_icon"></div>
+            <div className="supplyfirst_icon">
+              <img src={icon1} class="card-img-top" alt="..." />
+            </div>
             <h5>Easy Sampling</h5>
             <p>
               By going online, you can utilize digital marketing strategies to
@@ -132,7 +140,9 @@ const Home = () => {
             </p>
           </div>
           <div className="supplyfirst_listItem">
-            <div className="supplyfirst_icon"></div>
+            <div className="supplyfirst_icon">
+              <img src={icon2} class="card-img-top" alt="..." />
+            </div>
             <h5>large network of factories </h5>
             <p>
               By going online, you can utilize digital marketing strategies to
@@ -140,7 +150,9 @@ const Home = () => {
             </p>
           </div>
           <div className="supplyfirst_listItem">
-            <div className="supplyfirst_icon"></div>
+            <div className="supplyfirst_icon">
+              <img src={icon3} class="card-img-top" alt="..." />
+            </div>
             <h5>Reliablity</h5>
             <p>
               By going online, you can utilize digital marketing strategies to
@@ -148,7 +160,9 @@ const Home = () => {
             </p>
           </div>
           <div className="supplyfirst_listItem">
-            <div className="supplyfirst_icon"></div>
+            <div className="supplyfirst_icon">
+              <img src={icon4} class="card-img-top" alt="..." />
+            </div>
             <h5>Quality Assuarance</h5>
             <p>
               By going online, you can utilize digital marketing strategies to
@@ -156,7 +170,9 @@ const Home = () => {
             </p>
           </div>
           <div className="supplyfirst_listItem">
-            <div className="supplyfirst_icon"></div>
+            <div className="supplyfirst_icon">
+              <img src={icon5} class="card-img-top" alt="..." />
+            </div>
             <h5>Best Prices</h5>
             <p>
               By going online, you can utilize digital marketing strategies to
@@ -164,7 +180,9 @@ const Home = () => {
             </p>
           </div>
           <div className="supplyfirst_listItem">
-            <div className="supplyfirst_icon"></div>
+            <div className="supplyfirst_icon">
+              <img src={icon6} class="card-img-top" alt="..." />
+            </div>
             <h5>Real time Order Updates </h5>
             <p>
               By going online, you can utilize digital marketing strategies to
